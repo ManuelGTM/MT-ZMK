@@ -3,7 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include "34keys.h"
 
-
 / {
     behaviors {
         #include"behaviorsfs.dtsi"
@@ -22,7 +21,6 @@
     };
 
     macros {
-
         #include "macros.dtsi"
     };
 
@@ -41,7 +39,7 @@
         //│  X       │  Q       │  M       │  W        │  Z      │   │  K       │  M       │ , <      │ . >      │ / ?      │
             &kp X      &kp Q      &kp M      &kp W      &kp Z          &kp K      &kp P      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴─────────┼─────────── ┼─────────┤  ├─────────────────────┼──────────┴──────────┴──────────╯
-                                           &lt DOWN DEL  &kp ENTER     &kp SPACE    &lt UP BSPC
+                                           &lt NAV DEL  &kp ENTER     &kp SPACE    &lt SYM BSPC
         //                                ╰────────────┴──────────╯  ╰────────────┴────────────────╯
             >;
         };
