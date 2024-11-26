@@ -3,8 +3,8 @@
 
 // Layers
 #define BASE 0
-#define LEFT 1
-#define RIGHT 2
+#define DOWN 1
+#define UP 2
 
 // Home row mods macro
 #define HRML(k1, k2, k3, k4) &ht LSHFT k1 &ht LALT k2 &ht LCTRL k3 &ht LGUI k4
