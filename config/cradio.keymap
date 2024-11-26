@@ -5,7 +5,7 @@
 
 / {
     behaviors {
-        #include"behaviorsfs.dtsi"
+        #include "behaviorsfs.dtsi"
     };
 
     conditional_layers {
@@ -48,7 +48,7 @@
             bindings = <
         //╭────────── ┬─────────  ─┬────────   ─┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT    │            │            │          │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-           &kp K_PREV  &kp K_VOL_DN &kp K_VOL_UP &kp K_NEXT  &kp K_PP       &trans    &kp PG_UP   &kp UP    &kp PG_DN   &kp END  
+           &kp K_PREV  &kp K_VOL_DN &kp K_VOL_UP &kp K_NEXT  &kp K_PP       &Scope    &kp PG_UP   &kp UP    &kp PG_DN   &kp END  
         //├────────── ┼───────  ───┼───────   ──┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ 1         │  2         │  3         │  4       │  5       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ENT     │
             &kp N1     &kp N2        &kp N3      &kp N4     &kp N5          &trans    &kp LEFT    &kp DOWN   &kp RIGHT  &kp RET
@@ -85,7 +85,7 @@
            &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &Email     &trans     &trans     &trans    &bootloader
+          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
             &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
