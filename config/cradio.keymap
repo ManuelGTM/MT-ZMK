@@ -64,8 +64,8 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│   `      │  [       │  {       │  =>      │  %        │   │  :=      │  &       │  '       │  "       │  @       │
-            &kp GRAVE  &kp LPAR   &kp RPAR   &Arrow   &kp PRCNT     &kp CARET  &kp AMP   &kp    &kp RBKT   &kp TILDE
+        //│   `      │  [       │  {       │  =>      │  %        │   │  :=      │  &      │  '       │  "       │  @       │
+            &kp GRAVE  &kp LPAR   &kp RPAR   &Arrow   &kp PRCNT         &kp CARET  &kp AMP &kp APOSTROPHE &kp QUOTE   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ^       │  @       │  #       │  $       │  ${}     │   │  *       │  =       │  -       │  +       │  !     │
             &kp CARET &kp LBRC   &kp RBRC   &kp DLLR   &Dollar_Bracks &kp ASTRK  &kp EQUAL  &kp MINUS  &kp PLUS   &kp EXCL
